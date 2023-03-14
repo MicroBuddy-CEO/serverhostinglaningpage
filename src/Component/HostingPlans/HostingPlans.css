@@ -1,0 +1,7 @@
+.hostingPlans{
+    transition: transform 0.25s;
+  }
+  
+  .hostingPlans:hover{
+    transform: scale(1.1);
+  }

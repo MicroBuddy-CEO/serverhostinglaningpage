@@ -2,15 +2,25 @@ import React from "react";
 import "./Header.css";
 import { BsArrowRight, BsFillTelephoneFill } from "react-icons/bs";
 import img1 from "../../Asstets/temp/ab1.svg";
+import { TypeAnimation } from "react-type-animation";
 
 
 const Header = () => {
   return (
     <div className="h-[598px] flex px-[94px] bg-[#1053FF]">
       <div className="w-[65%]">
+
         <h1 className="font-[800] font-[inter] text-[54px] text-white mt-[99px]">
-          Trusted Web Hosting Site For <br /> Your{" "}
-          <span className="text-[#449AFF]">Website.</span>
+          Trusted Web Hosting Site For <br /> Your
+    
+          <TypeAnimation
+            sequence={['Website.', 2000, '']}
+            speed={5}
+            wrapper="h2"
+            repeat={Infinity}
+            className="text-[#449AFF] website ml-4"
+          />
+    
         </h1>
 
         <p className="font-[600] text-[20px] text-white mt-[61px]">
@@ -31,14 +41,14 @@ const Header = () => {
             </button>
           </div>
 
-          
+
         </div>
       </div>
 
-      <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold"> 
-      <img src={img1} className="w-[574px] h-[454px]" alt="" />
+      <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold">
+        <img src={img1} className="w-[574px] h-[454px]" id="zio" alt="" />
       </div>
-      
+
     </div>
   );
 };
