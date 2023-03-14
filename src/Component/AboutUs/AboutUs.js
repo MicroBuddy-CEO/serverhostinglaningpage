@@ -1,6 +1,8 @@
 import React from 'react';
 import "./AboutUs.css";
 import { BsCircleFill } from 'react-icons/bs';
+import img1 from "../../Asstets/temp/Megan Peters.png";
+import img2 from "../../Asstets/temp/19.svg";
 
 
 const AboutUs = () => {
@@ -25,7 +27,9 @@ const AboutUs = () => {
 
             <div className='flex justify-between mt-[67px]'>
                 <div className='flex items-center'>
-                    <div className='w-[206px] h-[206px] rounded-full bg-[#D9D9D9] review-circle'></div>
+                    <div className='w-[206px] h-[206px] rounded-full bg-[#D9D9D9] review-circle relative'>
+                        <img src={img2} alt="" className='absolute top-[50px] left-[50px]' />
+                    </div>
                     <div className='ml-[-150px] mt-[50px]'>
                         <p className='text-[26px] font-[500]'>Client Say About Us</p>
                         <div className='flex'>
@@ -45,7 +49,9 @@ const AboutUs = () => {
                         <div className='w-[584px] h-[229px] bg-[#1B84FF] rounded-[10px] px-[26px] py-[35px] mr-[20px]'>
 
                             <div className='flex items-center gap-[20px]'>
-                                <div className='w-[70px] h-[70px] rounded-full bg-[#D9D9D9]'></div>
+                                <div className='w-[70px] h-[70px] rounded-full bg-[#D9D9D9]'>
+                                    <img src={img1} className="w-[70px]" alt="" />
+                                </div>
                                 <div className='text-white font-[500]'>
                                     <h3 className=' text-[20px] '>Megan Peters</h3>
                                     <p className='text-[16px]'>12 Aug 2022</p>
@@ -58,7 +64,7 @@ const AboutUs = () => {
                         <div className='w-[584px] h-[229px] bg-[#1B84FF] rounded-[10px] px-[26px] py-[35px]'>
 
                             <div className='flex items-center gap-[20px]'>
-                                <div className='w-[70px] h-[70px] rounded-full bg-[#D9D9D9]'></div>
+                            <img src={img1} className="w-[70px]" alt="" />
                                 <div className='text-white font-[500]'>
                                     <h3 className=' text-[20px] '>Megan Peters</h3>
                                     <p className='text-[16px]'>12 Aug 2022</p>

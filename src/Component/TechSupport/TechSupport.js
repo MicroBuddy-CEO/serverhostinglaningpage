@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../../Asstets/temp/ab3.svg";
 
 const TechSupport = () => {
 
@@ -28,7 +29,9 @@ const TechSupport = () => {
 
             </div>
 
-            <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold">LOGO</div>
+            <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold">
+                <img src={img1} alt="" />
+            </div>
         </div>
     );
 };

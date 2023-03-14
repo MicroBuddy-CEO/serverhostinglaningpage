@@ -1,4 +1,6 @@
 import React from "react";
+import img1 from "../../Asstets/temp/build easy.png";
+
 
 const BuildEasy = () => {
     return (
@@ -24,8 +26,9 @@ const BuildEasy = () => {
 
             </div>
 
-            <div className="w-[35%] text-[40px] text-white grid content-center justify-center font-bold">LOGO</div>
-        </div>
+            <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold"> 
+      <img src={img1} className="w-[300px]" alt="" />
+      </div>        </div>
     );
 };
 

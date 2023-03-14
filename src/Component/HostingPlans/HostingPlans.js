@@ -1,9 +1,15 @@
 import React from "react";
 import "./HostingPlans.css";
+import icon1 from "../../Asstets/temp/7.svg";
+import icon2 from "../../Asstets/temp/8.svg";
+import icon3 from "../../Asstets/temp/9.svg";
+
 
 const HostingPlans = () => {
   return (
     <div className="font-[inter] px-[100px]">
+
+
       <div>
         <div className="text-center mt-[60px] flex justify-center justify-items-center">
           <div className="w-[20px] bg-[#F11B1B] h-[1px] mt-3 mr-[10px]"></div>
@@ -23,9 +29,13 @@ const HostingPlans = () => {
       <div className="mt-[70px] flex">
 
         <div className="border border-[#8F8F8F] w-[546px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[41px]">
-          <h1 className="text-[30px] font-[500] text-center mt-[40px]">Shared Hosting</h1>
 
-          <div className="ml-[30px] mt-[65px]">
+          <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
+             <img src={icon1} className="w-[50px] h-[50px] mr-[21px]" alt="" />
+             Shared Hosting
+             </h1>
+
+          <div className="px-[30px] mt-[65px]">
           <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
           <h2 className="text-[30px] font-[500]">
             $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>
@@ -42,9 +52,13 @@ const HostingPlans = () => {
         </div>
 
         <div className="border border-[#8F8F8F] w-[546px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[41px]">
-          <h1 className="text-[30px] font-[500] text-center mt-[40px]">Multidomain Hosting</h1>
+          <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
+             <img src={icon2} className="w-[50px] h-[50px] mr-[21px]" alt="" />
 
-          <div className="ml-[30px] mt-[65px]">
+             Multidomain Hosting
+             </h1>
+
+          <div className="px-[30px] mt-[65px]">
           <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
           <h2 className="text-[30px] font-[500]">
             $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>
@@ -61,9 +75,13 @@ const HostingPlans = () => {
         </div>
 
         <div className="border border-[#8F8F8F] w-[546px] h-[382px] rounded-[20px] bg-[#FFFFFF]">
-          <h1 className="text-[30px] font-[500] text-center mt-[40px]">Cloud Hosting</h1>
+          <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
+             <img src={icon3} className="w-[50px] h-[50px] mr-[21px]" alt="" />
 
-          <div className="ml-[30px] mt-[65px]">
+             Cloud Hosting
+             </h1>
+          
+          <div className="px-[30px] mt-[65px]">
           <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
           <h2 className="text-[30px] font-[500]">
             $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>

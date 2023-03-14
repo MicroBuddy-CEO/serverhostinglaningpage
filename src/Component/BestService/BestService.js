@@ -1,5 +1,10 @@
 import React from "react";
 import "./BestService.css";
+import icon1 from "../../Asstets/temp/diamond.svg";
+import icon2 from "../../Asstets/temp/data management.svg";
+import icon3 from "../../Asstets/temp/data recovery.svg";
+import icon4 from "../../Asstets/temp/top notch security.svg";
+
 
 const BestService = () => {
 
@@ -26,10 +31,13 @@ const BestService = () => {
 
         <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
           <div className="flex justify-center mt-[25px]">
-            <div className="w-[80px] h-[80px] bg-[#8F8F8F] rounded-full"></div>
+            <div className="w-[80px] h-[80px] bg-[#FF9649] rounded-full flex justify-center items-center"> 
+            <img src={icon1} alt="" />
+            </div>
+            
           </div>
           <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
-            Shared Hosting
+            Reliability
           </h1>
           <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
             Sed ut perspiciatis unde omnis natus error sit voluptatem
@@ -38,11 +46,13 @@ const BestService = () => {
         </div>
 
         <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
-          <div className="flex justify-center mt-[25px]">
-            <div className="w-[80px] h-[80px] bg-[#8F8F8F] rounded-full"></div>
+        <div className="flex justify-center mt-[25px]">
+            <div className="w-[80px] h-[80px] bg-[#1B84FF] rounded-full flex justify-center items-center"> 
+            <img src={icon2} alt="" />
+            </div>
           </div>
           <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
-            Shared Hosting
+            Data Management
           </h1>
           <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
             Sed ut perspiciatis unde omnis natus error sit voluptatem
@@ -50,12 +60,15 @@ const BestService = () => {
           </p>
         </div>
 
+
         <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
-          <div className="flex justify-center mt-[25px]">
-            <div className="w-[80px] h-[80px] bg-[#8F8F8F] rounded-full"></div>
+        <div className="flex justify-center mt-[25px]">
+            <div className="w-[80px] h-[80px] bg-[#44D464] rounded-full flex justify-center items-center"> 
+            <img src={icon3} alt="" />
+            </div>
           </div>
           <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
-            Shared Hosting
+            Data Recovery
           </h1>
           <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
             Sed ut perspiciatis unde omnis natus error sit voluptatem
@@ -64,18 +77,23 @@ const BestService = () => {
         </div>
 
         <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] shadow-lg">
+
           <div className="flex justify-center mt-[25px]">
-            <div className="w-[80px] h-[80px] bg-[#8F8F8F] rounded-full"></div>
+            <div className="w-[80px] h-[80px] bg-[#F25858] rounded-full flex justify-center items-center"> 
+            <img src={icon4} alt="" />
+            </div>
           </div>
+
           <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
-            Shared Hosting
+            Top Notch Securirty
           </h1>
+
           <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
             Sed ut perspiciatis unde omnis natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam nemo enim.
           </p>
-        </div>
 
+        </div>
 
       </div>
 

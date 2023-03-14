@@ -32,26 +32,42 @@ const DomainPrice = () => {
                     <p className="text-[14px] font-[400] mt-[15px] text-[#A5CEFE]">Starts at</p>
                     <p className="text-[22px] font-[500] mt-[15px] text-white ">$ 1,100</p>
                 </div>
+
                 <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg">
                     <h1 className="text-[22px] font-[500] mt-[35px] text-[#1B84FF]  ">.biz</h1>
                     <p className="text-[#8F8F8F] text-[14px] font-[400] mt-[15px]">Starts at</p>
                     <p className="text-[22px] font-[500] mt-[15px]">$ 1,100</p>
                 </div>
-                <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg">
+
+
+                <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg relative overflow-hidden">
+
+                    <div className="price-tag w-[86px] h-[18px] bg-[#FB8585] absolute top-[14px] left-[-18px]">
+                        <p className="text-[12px] text-white">New</p>
+                    </div>
+
                     <h1 className="text-[22px] font-[500] mt-[35px] text-[#44D464] ">.net</h1>
                     <p className="text-[#8F8F8F] text-[14px] font-[400] mt-[15px]">Starts at</p>
-                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,100</p>
+                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,000</p>
                 </div>
+
                 <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg">
                     <h1 className="text-[22px] font-[500] mt-[35px] text-[#FF9649]  ">.in</h1>
                     <p className="text-[#8F8F8F] text-[14px] font-[400] mt-[15px]">Starts at</p>
-                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,100</p>
+                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,400</p>
                 </div>
-                <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg">
+
+                <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] mr-[37px] text-center shadow-lg relative overflow-hidden">
+
+                    <div className="price-tag w-[86px] h-[18px] bg-[#FB8585] absolute top-[14px] left-[-18px]">
+                        <p className="text-[12px] text-white">New</p>
+                    </div>
+
                     <h1 className="text-[22px] font-[500] mt-[35px]  text-[#1B84FF] ">.org</h1>
                     <p className="text-[#8F8F8F] text-[14px] font-[400] mt-[15px]">Starts at</p>
-                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,100</p>
+                    <p className="text-[22px] font-[500] mt-[15px]">$ 1,500</p>
                 </div>
+
                 <div className="border  w-[199px] h-[170px] rounded-[10px] bg-[#FFFFFF] text-center shadow-lg">
                     <h1 className="text-[22px] font-[500] mt-[35px] text-[#F25858]">.online</h1>
                     <p className="text-[#8F8F8F] text-[14px] font-[400] mt-[15px]">Starts at</p>

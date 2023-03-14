@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsFillTelephoneFill } from "react-icons/bs";
+import img1 from "../../Asstets/temp/ab1.svg";
+
 
 const Header = () => {
   return (
@@ -23,15 +25,20 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="w-[148px] h-[41px] text-black bg-white border  rounded-[5px]">
-            <button className="flex justify-center justify-items-center px-[37px] py-[11px] ">
-              Contact us
+          <div className="w-[148px] h-[41px] text-black bg-white rounded-[5px]  mr-[38px]">
+            <button className="flex justify-center justify-items-center px-[20px] py-[11px] ">
+              <BsFillTelephoneFill className="mt-[1px] text-xl mr-2" /> Contact Us
             </button>
           </div>
+
+          
         </div>
       </div>
 
-      <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold">LOGO</div>
+      <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold"> 
+      <img src={img1} className="w-[574px] h-[454px]" alt="" />
+      </div>
+      
     </div>
   );
 };

@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineQuestionCircle } from 'react-icons/ai';
+import { BiUser } from 'react-icons/bi';
+
 
 const NavContact = () => {
   return (
@@ -10,8 +13,8 @@ const NavContact = () => {
         </div>
 
         <div className="flex justify-center justify-items-center">
-          <p className="mr-[142px]">Help</p>
-          <p>Contact</p>
+          <p className="mr-[142px] flex items-center"> <AiOutlineQuestionCircle className="mr-[10px]"/> Help</p>
+          <p className="flex items-center"> <BiUser className="mr-[10px]"/> Contact</p>
         </div>
       </div>
     </div>
