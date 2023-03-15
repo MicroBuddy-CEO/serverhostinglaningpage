@@ -5,6 +5,11 @@ import { MdLocationOn } from 'react-icons/md';
 import { FaFacebookF } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
 import icon from "../../Asstets/icon.png";
+import icon1 from "../../Asstets/temp/fb.svg";
+import icon2 from "../../Asstets/temp/linkedin.svg";
+import icon3 from "../../Asstets/temp/insta.svg";
+import icon4 from "../../Asstets/temp/twitter.svg";
+import "./Footer.css";
 
 
 const Footer = () => {
@@ -33,10 +38,18 @@ const Footer = () => {
                     </div>
 
                     <div className='flex gap-[20px] mt-[40px]'>
-                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'><FaFacebookF className='text-[20px]' /></div>
-                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'><FaFacebookF className='text-[20px]' /></div>
-                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'><FaFacebookF className='text-[20px]' /></div>
-                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'><FaFacebookF className='text-[20px]' /></div>
+                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'>
+                        <img src={icon1} alt="" />
+                        </div>
+                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'>
+                        <img src={icon2} alt="" />
+                        </div>
+                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'>
+                        <img src={icon3} alt="" />
+                        </div>
+                        <div className='w-[40px] h-[40px] rounded-full bg-[#80AEE4] flex items-center justify-center'>
+                        <img src={icon4} alt="" />
+                        </div>
                     </div>
                 </div>
 
@@ -149,11 +162,15 @@ const Footer = () => {
 
 
 
-                    <div className="w-[411pxpx] h-[40px] border border-[#8F8F8F] rounded-[80px] bg-white flex justify-end mt-[20px]">
-                        <div className="w-[36px] h-[36px] flex justify-center search-btn rounded-full m-[2px]">
-                            <button className=" text-white text-[20px]"> <BsArrowRight/> </button>
+                    <div className="footerSearch w-[411pxpx] h-[40px] border border-[#8F8F8F] rounded-[80px] bg-white flex justify-end items-center mt-[20px]">
 
+                        
+
+                        <input className='w-[395px] h-[38px] rounded-[80px] pl-[10px] text-black' type="text" placeholder='search' />
+                        <div className="w-[36px] h-[36px] flex justify-center items-center search-btn rounded-full m-[2px]">
+                        <button className=" text-white text-[20px]"> <BsArrowRight/></button>
                         </div>
+                        
                     </div>
 
                     <h2 className='font-[600] text-[30px] mt-[20px]'>Support</h2>

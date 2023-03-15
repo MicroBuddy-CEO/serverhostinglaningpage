@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "titile": ".com",
+        "sub-title": "Starts at",
+        "price": "1,100",
+        "status": "new"
+    },
+    {
+        "id": 2,
+        "titile": ".biz",
+        "sub-title": "Starts at",
+        "price": "1,100",
+        "status": "new"
+    },
+    {
+        "id": 3,
+        "titile": ".net",
+        "sub-title": "Starts at",
+        "price": "1,000",
+        "status": "new"
+    },
+    {
+        "id": 4,
+        "titile": ".in",
+        "sub-title": "Starts at",
+        "price": "1,400",
+        "status": "new"
+
+    },
+    {
+        "id": 5,
+        "titile": ".org",
+        "sub-title": "Starts at",
+        "price": "1,500",
+        "status": "new"
+
+    },
+    {
+        "id": 6,
+        "titile": ".online",
+        "sub-title": "Starts at",
+        "price": "1,100",
+        "status": "new"
+    }
+]

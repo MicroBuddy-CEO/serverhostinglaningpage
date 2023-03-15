@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.css";
 import { BsArrowRight, BsFillTelephoneFill } from "react-icons/bs";
-import img1 from "../../Asstets/temp/ab1.svg";
+import img1 from "../../Asstets/temp/abs1.png";
 import { TypeAnimation } from "react-type-animation";
 
 
 const Header = () => {
   return (
     <div className="h-[598px] flex px-[94px] bg-[#1053FF]">
-      <div className="w-[65%]">
+      <div className="w-[60%]">
 
         <h1 className="font-[800] font-[inter] text-[54px] text-white mt-[99px]">
           Trusted Web Hosting Site For <br /> Your
@@ -40,13 +40,11 @@ const Header = () => {
               <BsFillTelephoneFill className="mt-[1px] text-xl mr-2" /> Contact Us
             </button>
           </div>
-
-
         </div>
       </div>
 
-      <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold">
-        <img src={img1} className="w-[574px] h-[454px]" id="zio" alt="" />
+      <div className=" w-[40%] text-[40px] text-white grid content-center justify-center font-bold">
+        <img src={img1} className="" id="zio" alt="" />
       </div>
 
     </div>

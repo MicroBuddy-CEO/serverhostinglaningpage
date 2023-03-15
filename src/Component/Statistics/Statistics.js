@@ -36,7 +36,7 @@ const Statistics = () => {
 
                 <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#FFD3B4] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
+                        <div className="w-[60px] h-[60px] bg-[#FF9649] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
                             <img src={icon2} alt="" />
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Statistics = () => {
 
                 <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#ACF2BB] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
+                        <div className="w-[60px] h-[60px] bg-[#38EA61] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
                         <img src={icon3} alt="" />
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Statistics = () => {
 
                 <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#FEC1C1] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
+                        <div className="w-[60px] h-[60px] bg-[#F25858] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
                         <img src={icon4} alt="" />
                         </div>
                     </div>

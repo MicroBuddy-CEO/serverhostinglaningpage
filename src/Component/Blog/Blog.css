@@ -1,0 +1,21 @@
+.slick-slide {
+    margin: 0 40px 0 0px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-track {
+    overflow-y: hidden;
+    height: 750px;
+}
+
+.sliderImg img{
+    transition: transform 0.25s;
+}
+
+.sliderImg img:hover{
+    transform: scale(1.1);
+}
+

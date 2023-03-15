@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import img1 from "../../Asstets/temp/build easy.png";
+import img1 from "../../Asstets/temp/abs2.png";
 
 
 const BuildEasy = () => {
@@ -42,7 +42,7 @@ const BuildEasy = () => {
             </div>
 
             <div className=" w-[35%] text-[40px] text-white grid content-center justify-center font-bold"> 
-      <img src={img1} className="w-[300px]" alt="" />
+      <img src={img1}  id="zio" alt="" />
       </div>        </div>
     );
 };

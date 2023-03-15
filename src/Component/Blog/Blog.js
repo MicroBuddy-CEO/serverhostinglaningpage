@@ -4,13 +4,28 @@ import img2 from "../../Asstets/temp/img2.png";
 import img3 from "../../Asstets/temp/img3.png";
 import img4 from "../../Asstets/temp/Megan Peters.png";
 import img5 from "../../Asstets/temp/18.svg";
+import Slider from "react-slick";
+import "./Blog.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
 const Blog = () => {
 
+    var settings = {
+
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true
+    };
+
     return (
-        <div className="font-[inter] px-[100px] mt-[90px]">
+        <div className="font-[inter]  mt-[90px]">
 
             <div className="mt-[60px]">
                 <div className="text-center  flex justify-center justify-items-center">
@@ -30,116 +45,208 @@ const Blog = () => {
 
 
 
-            <div className="mt-[70px] flex justify-center">
-
-                <div className="border w-[505px] h-[704px] rounded-[10px] bg-[#FFFFFF] mr-[35px] shadow-lg">
-                    <div className="h-[352px] rounded-tl-[10px] rounded-tr-[10px] z-[-50]">
-                        <img src={img1} alt="" className="h-[352px]" />
-                    </div>
-                    <div className="pl-[45px] pr-[30px] relative">
-                        <div className="w-[88px] h-[36px] bg-[#FF9649] rounded-[50px] grid content-center absolute top-[-60px]">
-                            <button className="text-white text-[14px] font-[500]" >Hosting</button>
-                        </div>
-                        <h1 className="text-[26px] font-[500] text-black mt-[40px]">Starting a Web Hosting Business</h1>
-                        <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[30px]">To take a trivial example, which of us ever undertakes
-                            laborious physical exerciser , except to obtain some
-                            advantage from it...
-                        </p>
-                        <div className="mt-[61px] flex justify-between justify-items-center">
-                            <div className="flex justify-items-center">
-                                <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
-                                    <img src={img4} alt="" />
-                                </div>
-                                <div className="ml-[30px] font-[500]">
-                                    <h3 className="text-[20px] ">Megan Peters</h3>
-                                    <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
-                                </div>
-                            </div>
-                            <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
-                                <img src={img5} alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="font-[inter] px-[100px] mt-[50px] sliderImg">
 
 
+                 <Slider {...settings}>
 
-                <div className="border w-[505px] h-[704px] rounded-[10px] bg-[#FFFFFF] mr-[35px] shadow-lg">
-
-                    <div className="h-[352px] rounded-tl-[10px] rounded-tr-[10px]">
-                        <img src={img2} alt="" className="h-[352px]" />
-                    </div>
-
-                    <div className="pl-[45px] pr-[30px] relative">
-                        <div className="w-[88px] h-[36px] bg-[#86BEFF] rounded-[50px] grid content-center absolute top-[-60px]">
-                            <button className="text-white text-[14px] font-[500]" >Email</button>
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img1} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
                         </div>
 
-                        <h1 className="text-[26px] font-[500] text-black mt-[40px]">Email Hosting For Your Projects</h1>
-
-                        <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[30px]">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum   deleniti atquem
-                        </p>
-
-                        <div className="mt-[61px] flex justify-between justify-items-center">
-
-                            <div className="flex justify-items-center">
-                                <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
-                                    <img src={img4} alt="" />
-                                </div>
-
-                                <div className="ml-[30px] font-[500]">
-                                    <h3 className="text-[20px] ">Megan Peters</h3>
-                                    <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
-                                </div>
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#FF9649] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Hosting</button>
                             </div>
-                            <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
-                                <img src={img5} alt="" />
+
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Starting a Web Hosting Business</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-
-
-                <div className="border w-[505px] h-[704px] rounded-[10px] bg-[#FFFFFF] shadow-lg">
-
-                    <div className="h-[352px] rounded-tl-[10px] rounded-tr-[10px]">
-                        <img src={img3} alt="" className="h-[352px]" />
-                    </div>
-
-                    <div className="pl-[45px] pr-[30px] relative">
-                        <div className="w-[88px] h-[36px] bg-[#44D464] rounded-[50px] grid content-center absolute top-[-60px]">
-                            <button className="text-white text-[14px] font-[500]" >Cloud</button>
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img2} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
                         </div>
 
-                        <h1 className="text-[26px] font-[500] text-black mt-[40px]">Cloud Hosting growing faster</h1>
-
-                        <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[30px]">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut „
-                        </p>
-
-                        <div className="mt-[61px] flex justify-between justify-items-center">
-
-                            <div className="flex justify-items-center">
-                                <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
-                                    <img src={img4} alt="" />
-                                </div>
-
-                                <div className="ml-[30px] font-[500]">
-                                    <h3 className="text-[20px] ">Megan Peters</h3>
-                                    <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
-                                </div>
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#86BEFF] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Email</button>
                             </div>
 
-                            <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
-                                <img src={img5} alt="" />
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Email Hosting For Your Projects</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
                             </div>
-
                         </div>
-
                     </div>
 
-                </div>
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img3} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
+                        </div>
 
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#44D464] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Cloud</button>
+                            </div>
+
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Cloud Hosting Growing Faster</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img1} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
+                        </div>
+
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#FF9649] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Hosting</button>
+                            </div>
+
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Starting a Web Hosting Business</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img2} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
+                        </div>
+
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#86BEFF] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Email</button>
+                            </div>
+
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Email Hosting For Your Projects</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border w-[505px] h-[600px] rounded-[10px] bg-[#FFFFFF] shadow-lg overflow-hidden">
+                        <div className="h-[300px] rounded-tl-[10px] rounded-tr-[10px] overflow-hidden">
+                            <img src={img3} alt="" className="h-[352px] w-full rounded-tl-[10px] rounded-tr-[10px]" />
+                        </div>
+
+                        <div className="pl-[45px] pr-[30px] relative">
+                            <div className="w-[88px] h-[36px] bg-[#44D464] rounded-[50px] grid content-center absolute top-[-50px]">
+                                <button className="text-white text-[14px] font-[500]" >Cloud</button>
+                            </div>
+
+                            <h1 className="text-[26px] font-[500] text-black mt-[30px]">Cloud Hosting Growing Faster</h1>
+                            <p className="text-[16px] font-[500] text-[#8F8F8F] mt-[20px]">To take a trivial example, which of us ever undertakes
+                                laborious physical exerciser , except to obtain some
+                                advantage from it...
+                            </p>
+                            <div className="mt-[30px] flex justify-between justify-items-center">
+                                <div className="flex justify-items-center">
+                                    <div className="w-[50px] h-[50px] rounded-full bg-[#D9D9D9]">
+                                        <img src={img4} alt="" />
+                                    </div>
+                                    <div className="ml-[30px] font-[500]">
+                                        <h3 className="text-[20px] ">Megan Peters</h3>
+                                        <p className="text-[16px] text-[#8F8F8F]">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div className="w-[30px] h-[30px] grid content-center justify-center rounded-full bg-[#D9D9D9]">
+                                    <img src={img5} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                </Slider>
+   
             </div>
 
         </div>
