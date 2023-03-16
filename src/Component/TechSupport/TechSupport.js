@@ -21,7 +21,7 @@ const TechSupport = () => {
 
                 <p className="font-[600] text-[20px] text-white mt-[46px]">Call Us : 123-789-7854 (Or) Chat Now</p>
 
-                <div className="w-[154px] h-[41px] mt-[49px] font-[500] text-[14px] text-white bg-[#FF9649] rounded-[5px] text-center">
+                <div className="getStartedBtn w-[154px] h-[41px] mt-[49px] font-[500] text-[14px] text-white bg-[#FF9649] rounded-[5px] text-center">
                     <button className="px-[20px] py-[11px]">
                         Contact Now
                     </button>

@@ -30,7 +30,7 @@ const Header = () => {
 
         <div className="flex mt-[97px] font-[500] text-[14px]">
           <div className="w-[148px] h-[41px] text-white bg-[#FF9649] rounded-[5px]  mr-[38px]">
-            <button className="flex justify-center justify-items-center px-[20px] py-[11px] ">
+            <button className="getStartedBtn flex justify-center justify-items-center px-[20px] py-[11px] ">
               <BsArrowRight className="mt-[1px] text-xl mr-2" /> Get Started
             </button>
           </div>

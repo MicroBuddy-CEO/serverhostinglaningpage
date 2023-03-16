@@ -33,8 +33,8 @@ const BuildEasy = () => {
                     or simply drag-and-drop to customize your design.
                 </p>
 
-                <div className="w-[154px] h-[41px] mt-[97px] font-[500] text-[14px] text-white bg-[#FF9649] rounded-[5px] text-center">
-                    <button className="px-[20px] py-[11px]">
+                <div className="getStartedBtn w-[154px] h-[41px] mt-[97px] font-[500] text-[14px] text-white bg-[#FF9649] rounded-[5px] text-center">
+                    <button className="px-[20px] py-[11px] ">
                         Get Started
                     </button>
                 </div>

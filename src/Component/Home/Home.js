@@ -11,10 +11,11 @@ import HostingPlans from '../HostingPlans/HostingPlans';
 import Navbar from '../Navbar/Navbar/Navbar';
 import Statistics from '../Statistics/Statistics';
 import TechSupport from '../TechSupport/TechSupport';
+import "./Home.css"
 
 const Home = () => {
     return (
-        <div className='bg-[#F3F3F3]'>
+        <div className='home-container'>
             <Navbar/>
             <Header/>
             <HostingPlans/>
@@ -27,7 +28,6 @@ const Home = () => {
             <TechSupport/>
             <AboutUs/>
             <Footer/>
-            
         </div>
     );
 };
