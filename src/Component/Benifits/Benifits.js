@@ -6,6 +6,7 @@ import icon4 from "../../Asstets/temp/2.svg";
 import icon5 from "../../Asstets/temp/1.svg";
 import icon6 from "../../Asstets/temp/5.svg";
 import { Fade } from "react-reveal";
+import "./Benifits.css"
 
 
 const Benifits = () => {
@@ -37,15 +38,15 @@ const Benifits = () => {
             <div className="mt-[70px] grid grid-cols-3 gap-[50px]">
 
                 <Fade bottom delay={500}>
-                    <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
-                        <div className="flex items-center pt-[31px] px-[30px]">
-                            <img src={icon1} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                            <h1 className="text-[26px] font-[500]  text-center">
+                    <div className="domain-price-box shadow-lg border">
+                        <div className="sub-domain-price-box">
+                            <img src={icon1} alt="" />
+                            <h1>
                                 Free Email Forwarding
                             </h1>
                         </div>
 
-                        <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
+                        <p>
                             Amet ipsum justo no dolores lorem tempor clita elitr
                             et ut, amet aliquyam et sed invidunt at kasd accusam,
                             dolor.
@@ -54,14 +55,14 @@ const Benifits = () => {
                 </Fade>
 
                 <Fade bottom delay={700}>
-                    <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
-                        <div className="flex items-center pt-[31px] px-[30px]">
-                            <img src={icon2} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                            <h1 className="text-[26px] font-[500]  text-center">
+                    <div className="domain-price-box shadow-lg border">
+                        <div className="sub-domain-price-box">
+                            <img src={icon2} alt="" />
+                            <h1>
                                 Bulk Tools
                             </h1>
                         </div>
-                        <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
+                        <p>
                             Et harum quidem rerum facilis est et expedita
                             distinctio. Nam libero tempore, cum soluta nobis est
                             eligendi optio cumque.
@@ -70,14 +71,14 @@ const Benifits = () => {
                 </Fade>
 
                 <Fade bottom delay={900}>
-                    <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
-                        <div className="flex items-center pt-[31px] px-[30px]">
-                            <img src={icon3} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                            <h1 className="text-[26px] font-[500]  text-center">
+                    <div className="domain-price-box shadow-lg border">
+                        <div className="sub-domain-price-box">
+                            <img src={icon3} alt="" />
+                            <h1>
                                 DNS Management
                             </h1>
                         </div>
-                        <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
+                        <p>
                             Nemo enim ipsam voluptatem quia voluptas sit
                             aspernatur aut odit aut fugit, sed quia consequuntur
                             magni dolores eos.
@@ -86,16 +87,16 @@ const Benifits = () => {
                 </Fade>
 
                 <Fade bottom delay={1100}>
-                    <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
+                    <div className="domain-price-box shadow-lg border">
 
-                        <div className="flex items-center pt-[31px] px-[30px]">
-                            <img src={icon4} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                            <h1 className="text-[26px] font-[500]  text-center">
+                        <div className="sub-domain-price-box">
+                            <img src={icon4} alt="" />
+                            <h1>
                                 Easy To Use Control Panel
                             </h1>
                         </div>
 
-                        <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
+                        <p>
                             Ut enim ad minima veniam, quis nostrum
                             exercitationem corporis suscipit laboriosam, nisi ut
                             aliquid commodi consequatur.
@@ -104,16 +105,16 @@ const Benifits = () => {
                 </Fade>
 
                 <Fade bottom delay={1300}>
-                    <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
+                    <div className="domain-price-box shadow-lg border">
 
-                        <div className="flex items-center pt-[31px] px-[30px]">
-                            <img src={icon5} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                            <h1 className="text-[26px] font-[500]  text-center">
+                        <div className="sub-domain-price-box">
+                            <img src={icon5} alt="" />
+                            <h1>
                                 Domain Theft Protection
                             </h1>
                         </div>
 
-                        <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
+                        <p>
                             Nam libero tempore, nobis est eligendi optio cumque
                             nihil impedit quo minus id quod maxime placeat
                             facere possimus, omnis voluptas est.
@@ -122,20 +123,20 @@ const Benifits = () => {
                 </Fade>
 
                 <Fade bottom delay={1500}>
-                <div className="border w-[549px] h-[190px] rounded-[20px] bg-[#FFFFFF] mr-[37px] shadow-lg">
-                    <div className="flex items-center pt-[31px] px-[30px]">
-                        <img src={icon6} className="w-[44px] h-[30px] mr-[14px]" alt="" />
-                        <h1 className="text-[26px] font-[500]  text-center">
-                            Domain Forwarding
-                        </h1>
-                    </div>
+                    <div className="domain-price-box shadow-lg border">
+                        <div className="sub-domain-price-box">
+                            <img src={icon6} alt="" />
+                            <h1>
+                                Domain Forwarding
+                            </h1>
+                        </div>
 
-                    <p className="text-[#8F8F8F] text-[16px] text-left font-[500] mt-[20px] px-[30px] pr-[104px]">
-                        At vero eos et accusamus et iusto odio dignissimos
-                        ducimus qui blanditiis praesentium voluptatum
-                        deleniti atque corrupti dolores.
-                    </p>
-                </div>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos
+                            ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti dolores.
+                        </p>
+                    </div>
 
                 </Fade>
             </div>

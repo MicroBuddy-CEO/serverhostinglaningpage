@@ -1,10 +1,11 @@
 import React from "react";
 import img1 from "../../Asstets/temp/abs3.png";
+import "./TechSupport.css"
 
 const TechSupport = () => {
 
     return (
-        <div className="h-[598px]  flex px-[94px] bg-[#1053FF] mt-[90px] font-[inter] overflow">
+        <div className="tech-supp-container">
             <div className="w-[65%]">
                 <h1 className="font-[700] font-[inter] text-[54px] text-white mt-[99px]">Best Technical Support 24/7
                 </h1>
@@ -21,7 +22,7 @@ const TechSupport = () => {
 
                 <p className="font-[600] text-[20px] text-white mt-[46px]">Call Us : 123-789-7854 (Or) Chat Now</p>
 
-                <div className="getStartedBtn w-[154px] h-[41px] mt-[49px] font-[500] text-[14px] text-white bg-[#FF9649] rounded-[5px] text-center">
+                <div className="getStartedBtn tech-supp-btn">
                     <button className="px-[20px] py-[11px]">
                         Contact Now
                     </button>
@@ -29,7 +30,7 @@ const TechSupport = () => {
 
             </div>
 
-            <div className="  w-[35%] h-[750px]  text-[40px] text-white grid content-center justify-center font-bold">
+            <div className="tech-spp-img">
                 <img src={img1} alt="" id="zio" />
             </div>
         </div>

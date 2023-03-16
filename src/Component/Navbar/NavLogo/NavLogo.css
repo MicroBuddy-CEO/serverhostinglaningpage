@@ -24,7 +24,26 @@
     align-items: center;
 }
 
-.main-logo-cont p{
+.main-logo-cont p {
     font-size: 24px;
     font-weight: 700;
+}
+
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contact-call-btn, .contact-chat-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #80AEE4;
+    border: 1px solid white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Fade } from "react-reveal";
-
 import "./AboutUs.css";
 import { BsCircleFill } from 'react-icons/bs';
 import img1 from "../../Asstets/temp/Megan Peters.png";
@@ -42,12 +41,12 @@ const AboutUs = () => {
                     <div className='ml-[-150px] mt-[50px]'>
                         <p className='text-[26px] font-[500]'>Client Say About Us</p>
                         <div className='flex'>
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#1053FF] mr-[5px]' />
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#8F8F8F] mr-[5px]' />
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#8F8F8F] mr-[5px]' />
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#8F8F8F] mr-[5px]' />
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#8F8F8F] mr-[5px]' />
-                            <BsCircleFill className='w-[5px] h-[5px] text-[#8F8F8F]' />
+                            <BsCircleFill className='review-slide-dot' />
+                            <BsCircleFill className='review-slide-dot' />
+                            <BsCircleFill className='review-slide-dot' />
+                            <BsCircleFill className='review-slide-dot' />
+                            <BsCircleFill className='review-slide-dot' />
+                            <BsCircleFill className='review-slide-dot' />
                         </div>
                     </div>
                 </div>
@@ -58,7 +57,7 @@ const AboutUs = () => {
                     <div className=' flex items-center  ml-[-45px]'>
 
                         <Fade left delay={500}>
-                            <div className='w-[584px] h-[229px] bg-[#1B84FF] rounded-[10px] px-[26px] py-[35px] mr-[20px]'>
+                            <div className='about-slider-cont'>
 
                                 <div className='flex items-center gap-[20px]'>
                                     <div className='w-[70px] h-[70px] rounded-full bg-[#D9D9D9]'>
@@ -70,12 +69,12 @@ const AboutUs = () => {
                                     </div>
                                 </div>
 
-                                <p className='text-[16px] font-[500] text-white mt-[12px]'>Efficiently innovate customized growth strategies whereas error-free paradigms. Monotonectally enhance stand-alone data with prospective innovation.</p>
+                                <p>Efficiently innovate customized growth strategies whereas error-free paradigms. Monotonectally enhance stand-alone data with prospective innovation.</p>
                             </div>
                         </Fade>
 
                         <Fade right delay={800}>
-                            <div className='w-[584px] h-[229px] bg-[#1B84FF] rounded-[10px] px-[26px] py-[35px]'>
+                            <div className='about-slider-cont'>
 
                                 <div className='flex items-center gap-[20px]'>
                                     <img src={img1} className="w-[70px]" alt="" />
@@ -85,7 +84,7 @@ const AboutUs = () => {
                                     </div>
                                 </div>
 
-                                <p className='text-[16px] font-[500] text-white mt-[12px]'>Efficiently innovate customized growth strategies whereas error-free paradigms. Monotonectally enhance stand-alone data with prospective innovation.</p>
+                                <p>Efficiently innovate customized growth strategies whereas error-free paradigms. Monotonectally enhance stand-alone data with prospective innovation.</p>
                             </div>
                         </Fade>
 

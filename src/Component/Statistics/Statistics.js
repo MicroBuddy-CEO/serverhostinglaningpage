@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Statistics.css";
-import { FaGraduationCap } from 'react-icons/fa';
 import icon1 from "../../Asstets/temp/Domain Registered.svg";
 import icon2 from "../../Asstets/temp/Resellers.svg";
 import icon3 from "../../Asstets/temp/Total Clients.svg";
@@ -20,13 +19,11 @@ const Statistics = () => {
 
             <div className='mt-[90px] grid grid-cols-4'>
 
-                <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
+                <div className=" statistics-container mr-[33px shadow-lg border">
                     <div className="flex justify-center mt-[30px]">
-
-                        <div className="w-[60px] h-[60px] bg-[#1B84FF] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
-                        <img src={icon1} alt="" />
+                        <div className="statistics-container-img bg-[#1B84FF]">
+                            <img src={icon1} alt="" />
                         </div>
-
                     </div>
                     <h1 className="text-[26px] font-[500] mt-[30px]  ">
                         Domain Registered
@@ -34,9 +31,9 @@ const Statistics = () => {
                     <p className='font-[500] text-[36px] text-[#1B84FF] mt-[30px]'>36</p>
                 </div>
 
-                <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
+                <div className="statistics-container mr-[33px shadow-lg border">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#FF9649] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
+                        <div className="statistics-container-img bg-[#FF9649]">
                             <img src={icon2} alt="" />
                         </div>
                     </div>
@@ -46,10 +43,10 @@ const Statistics = () => {
                     <p className='font-[500] text-[36px] text-[#FF9649] mt-[30px]'>25</p>
                 </div>
 
-                <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
+                <div className="statistics-container mr-[33px shadow-lg border">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#38EA61] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
-                        <img src={icon3} alt="" />
+                        <div className="statistics-container-img bg-[#38EA61]">
+                            <img src={icon3} alt="" />
                         </div>
                     </div>
                     <h1 className="text-[26px] font-[500] mt-[30px]  ">
@@ -58,10 +55,10 @@ const Statistics = () => {
                     <p className='font-[500] text-[36px] text-[#44D464] mt-[30px]'>500</p>
                 </div>
 
-                <div className="border w-[406px] h-[265px] rounded-[20px] bg-[#FFFFFF] mr-[33px] text-center shadow-lg">
+                <div className="statistics-container mr-[33px shadow-lg border">
                     <div className="flex justify-center mt-[30px]">
-                        <div className="w-[60px] h-[60px] bg-[#F25858] rounded-tl-full rounded-tr-full rounded-br-full flex items-center justify-center">
-                        <img src={icon4} alt="" />
+                        <div className="statistics-container-img bg-[#F25858]">
+                            <img src={icon4} alt="" />
                         </div>
                     </div>
                     <h1 className="text-[26px] font-[500] mt-[30px]  ">

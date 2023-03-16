@@ -39,9 +39,9 @@ const BestService = () => {
       <div className="mt-[70px] flex">
 
         <Fade bottom delay={500}>
-          <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
+          <div className="best-service-box mr-[24px] shadow-lg">
             <div className="flex justify-center mt-[25px]">
-              <div className="w-[80px] h-[80px] bg-[#FF9649] rounded-full flex justify-center items-center">
+              <div className="best-service-img bg-[#FF9649]">
                 <img src={icon1} alt="" />
               </div>
 
@@ -49,7 +49,7 @@ const BestService = () => {
             <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
               Reliability
             </h1>
-            <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
+            <p>
               Sed ut perspiciatis unde omnis natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam nemo enim.
             </p>
@@ -57,16 +57,16 @@ const BestService = () => {
         </Fade>
 
         <Fade bottom delay={600}>
-          <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
+          <div className="best-service-box mr-[24px] shadow-lg">
             <div className="flex justify-center mt-[25px]">
-              <div className="w-[80px] h-[80px] bg-[#1B84FF] rounded-full flex justify-center items-center">
+              <div className="best-service-img bg-[#1B84FF] ">
                 <img src={icon2} alt="" />
               </div>
             </div>
             <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
               Data Management
             </h1>
-            <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
+            <p>
               Sed ut perspiciatis unde omnis natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam nemo enim.
             </p>
@@ -75,16 +75,16 @@ const BestService = () => {
 
 
         <Fade bottom delay={700}>
-          <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[24px] shadow-lg">
+          <div className=" best-service-box mr-[24px] shadow-lg">
             <div className="flex justify-center mt-[25px]">
-              <div className="w-[80px] h-[80px] bg-[#44D464] rounded-full flex justify-center items-center">
+              <div className="best-service-img  bg-[#44D464]">
                 <img src={icon3} alt="" />
               </div>
             </div>
             <h1 className="text-[30px] font-[500] mt-[20px] text-center ">
               Data Recovery
             </h1>
-            <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
+            <p>
               Sed ut perspiciatis unde omnis natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam nemo enim.
             </p>
@@ -92,10 +92,10 @@ const BestService = () => {
         </Fade>
 
         <Fade bottom delay={900}>
-          <div className="border w-[412px] h-[382px] rounded-[20px] bg-[#FFFFFF] shadow-lg">
+          <div className="best-service-box shadow-lg">
 
             <div className="flex justify-center mt-[25px]">
-              <div className="w-[80px] h-[80px] bg-[#F25858] rounded-full flex justify-center items-center">
+              <div className="best-service-img  bg-[#F25858]">
                 <img src={icon4} alt="" />
               </div>
             </div>
@@ -104,7 +104,7 @@ const BestService = () => {
               Top Notch Securirty
             </h1>
 
-            <p className="text-[#8F8F8F] text-[16px] text-center font-[500] mt-[55px] px-[63px]">
+            <p>
               Sed ut perspiciatis unde omnis natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam nemo enim.
             </p>

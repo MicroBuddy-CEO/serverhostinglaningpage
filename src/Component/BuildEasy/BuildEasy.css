@@ -1,19 +1,48 @@
+.get-started-btn {
+    width: 154px;
+    height: 41px;
+    margin-top: 97px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background-color: #FF9649;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
 @-webkit-keyframes bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(10px) }
-    100% { transform: translateY(-5px) }
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
 }
 
 @keyframes bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(10px) }
-    100% { transform: translateY(-5px) }
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
 }
 
 #zio {
     -webkit-animation: bounce 3s infinite ease-in-out;
     -o-animation: bounce 3s infinite ease-in-out;
-    -ms-animation: bounce 3s infinite ease-in-out; 
-    -moz-animation: bounce 3s infinite ease-in-out; 
+    -ms-animation: bounce 3s infinite ease-in-out;
+    -moz-animation: bounce 3s infinite ease-in-out;
     animation: bounce 3s infinite ease-in-out;
 }

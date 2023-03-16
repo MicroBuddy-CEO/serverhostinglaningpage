@@ -12,9 +12,9 @@ const NavLogo = () => {
           <p>Logo</p>
         </div>
 
-        <div className="flex justify-center justify-items-center">
+        <div className="contact-section">
           <div className="flex items-center">
-            <div className="w-[50px] h-[50px] border bg-[#80AEE4] grid content-center justify-center rounded-full mr-[10px]"> <BsFillTelephoneFill />
+            <div className="contact-call-btn"> <BsFillTelephoneFill />
             </div>
             <p className="mr-[129px] text-center">
               Contact Us <br />
@@ -23,15 +23,13 @@ const NavLogo = () => {
           </div>
 
           <div className="flex items-center">
-            <div className="w-[50px] h-[50px] border bg-[#80AEE4] grid content-center justify-center rounded-full mr-[10px]"> <BsChat />
+            <div className="contact-chat-btn"> <BsChat />
             </div>
             <p className="text-center">
               Live Chat <br />
               <span className="text-[14px]">+93420498</span>
             </p>
           </div>
-
-
         </div>
       </div>
     </div>
