@@ -6,7 +6,7 @@ const Domainprice = [
         "price": "1,100",
         "status": "new",
         "vsb": "#8F8F8F",
-        "titleColor": "#F25858", 
+        "titleColor": "#fff", 
 
     },
     {

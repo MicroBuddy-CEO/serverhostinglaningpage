@@ -5,114 +5,108 @@ import icon2 from "../../Asstets/temp/8.svg";
 import icon3 from "../../Asstets/temp/9.svg";
 import { Fade } from "react-reveal";
 
-
 const HostingPlans = () => {
   return (
-    <div className="font-[inter] px-[100px]">
-
+    <div className="hostingplan-container">
 
       <div>
+        
         <Fade top delay={500}>
-        <div className="text-center mt-[60px] flex justify-center justify-items-center">
-          <div className="w-[20px] bg-[#F11B1B] h-[1px] mt-3 mr-[10px]"></div>
-          <p className="font-[500] text-[15px] text-[#1B84FF]">Features</p>
-          <div className="w-[20px] bg-[#F11B1B] h-[1px] mt-3 ml-[10px]"></div>
-        </div>
+          <div className="section-title-container">
+            <div className="title-line"></div>
+            <p className="section-title">Features</p>
+            <div className="title-line"></div>
+          </div>
         </Fade>
 
         <Fade top delay={600}>
-        <h1 className="text-center text-[35px] font-[500] mt-[12px]">
-          Web Hosting <span className="text-[#1B84FF]">Plans</span>
-        </h1>
+          <h1 className="hostingplan-title">
+            Web Hosting <span>Plans</span>
+          </h1>
         </Fade>
 
-       <Fade top delay={700}>
-       <p className="text-[16px] font-[500] text-[#8F8F8F] text-center mt-[12px]">
-          Choose Correct Plan For Your Business
-        </p>
-       </Fade>
+        <Fade top delay={700}>
+          <p className="hostingplan-sub-title">
+            Choose Correct Plan For Your Business
+          </p>
+        </Fade>
       </div>
 
-      <div className="mt-[70px] flex">
-
+      <div className="hosting-box-container">
+        
         <Fade right delay={500}>
           <div>
-           <div className="hostingPlans border border-[#8F8F8F] rounded-[20px] w-[546px] h-[382px] bg-[#FFFFFF] mr-[41px]">
-           <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
-              <img src={icon1} className="w-[50px] h-[50px] mr-[21px] " alt="" />
-              Shared Hosting
-            </h1>
-            <div className="px-[30px] mt-[65px] ">
-              <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
-              <h2 className="text-[30px] font-[500]">
-                $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>
-              </h2>
-              <p className="text-[#8F8F8F] text-[16px] mt-[15px]">
-                Magna Dolore elitr ut et labore stet dolor tempor at ipsum, amet
-                quis nostrum exercutationem
-              </p>
-              <div className="w-[148px] h-[41px] bg-[#1B84FF] rounded-[5px] mt-[30px]">
-                <button className="text-[13px] font-[600] px-[18px] my-[12px] text-white">Get Started Now</button>
+            <div className="hostingPlans">
+              <h1>
+                <img src={icon1} alt="" />
+                Shared Hosting
+              </h1>
+              <div className="sub-hosting-container">
+                <p className="starts"> Starts at </p>
+                <h2>
+                  $8.00
+                  <span>/ month</span>
+                </h2>
+                <p className="descrip">
+                  Magna Dolore elitr ut et labore stet dolor tempor at ipsum,
+                  amet quis nostrum exercutationem
+                </p>
+                <div className="get-started-now-btn">
+                  <button>Get Started Now</button>
+                </div>
               </div>
             </div>
-           </div>
-           </div>
+          </div>
         </Fade>
 
         <Fade right delay={600}>
           <div>
-          <div className="hostingPlans border border-[#8F8F8F] w-[546px] h-[382px] rounded-[20px] bg-[#FFFFFF] mr-[41px]">
-            <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
-              <img src={icon2} className="w-[50px] h-[50px] mr-[21px]" alt="" />
-
-              Multidomain Hosting
-            </h1>
-
-            <div className="px-[30px] mt-[65px]">
-              <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
-              <h2 className="text-[30px] font-[500]">
-                $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>
-              </h2>
-              <p className="text-[#8F8F8F] text-[16px] mt-[15px]">
-                Magna Dolore elitr ut et labore stet dolor tempor at ipsum, amet
-                quis nostrum exercutationem
-              </p>
-              <div className="w-[148px] h-[41px] bg-[#1B84FF] rounded-[5px] mt-[30px]">
-                <button className="text-[13px] font-[600] px-[18px] my-[12px] text-white">Get Started Now</button>
+            <div className="hostingPlans">
+              <h1>
+                <img src={icon2} alt="" />
+                Multidomain Hosting
+              </h1>
+              <div className="sub-hosting-container">
+                <p className="starts">Starts at</p>
+                <h2>
+                  $8.00
+                  <span>/ month</span>
+                </h2>
+                <p className="descrip">
+                  Magna Dolore elitr ut et labore stet dolor tempor at ipsum,
+                  amet quis nostrum exercutationem
+                </p>
+                <div className="get-started-now-btn">
+                  <button>Get Started Now</button>
+                </div>
               </div>
             </div>
-
-          </div>
           </div>
         </Fade>
 
         <Fade right delay={700}>
           <div>
-          <div className="hostingPlans border border-[#8F8F8F] w-[546px] h-[382px] rounded-[20px] bg-[#FFFFFF]">
-            <h1 className="text-[30px] font-[500] pl-[30px] mt-[40px] flex items-center justify-start">
-              <img src={icon3} className="w-[50px] h-[50px] mr-[21px]" alt="" />
-
-              Cloud Hosting
-            </h1>
-
-            <div className="px-[30px] mt-[65px]">
-              <p className="text-[#8F8F8F] text-[14px] font-[500]">Starts at</p>
-              <h2 className="text-[30px] font-[500]">
-                $8.00 <span className="text-[#8F8F8F] text-[14px]">/ month</span>
-              </h2>
-              <p className="text-[#8F8F8F] text-[16px] mt-[15px]">
-                Magna Dolore elitr ut et labore stet dolor tempor at ipsum, amet
-                quis nostrum exercutationem
-              </p>
-              <div className="w-[148px] h-[41px] bg-[#1B84FF] rounded-[5px] mt-[30px]">
-                <button className="text-[13px] font-[600] px-[18px] my-[12px] text-white">Get Started Now</button>
+            <div className="hostingPlans">
+              <h1>
+                <img src={icon3} alt="" />
+                Cloud Hosting
+              </h1>
+              <div className="sub-hosting-container">
+                <p className="starts"> Starts at </p>
+                <h2>
+                  $8.00 <span>/ month</span>
+                </h2>
+                <p className="descrip">
+                  Magna Dolore elitr ut et labore stet dolor tempor at ipsum,
+                  amet quis nostrum exercutationem
+                </p>
+                <div className="get-started-now-btn">
+                  <button>Get Started Now</button>
+                </div>
               </div>
             </div>
-
-          </div>
           </div>
         </Fade>
-
       </div>
     </div>
   );

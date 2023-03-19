@@ -19,7 +19,7 @@ const Home = () => {
             <Navbar/>
             <Header/>
             <HostingPlans/>
-            <BestService/>
+            <BestService/> 
             <BuildEasy/>
             <DomainPrice/>
             <Benifits/>

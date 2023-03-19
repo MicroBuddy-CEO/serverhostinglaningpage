@@ -56,7 +56,6 @@ const DomainPrice = () => {
                             <p className={`text-[22px] font-[500] mt-[15px] text-black ${IsColor === dmprice.id ? "text-white" : ""}`}>
                                 {dmprice.price}
                             </p>
-
                         </div>)
                 }
 

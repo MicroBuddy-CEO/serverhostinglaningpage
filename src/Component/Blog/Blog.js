@@ -81,6 +81,9 @@ const Blog = () => {
                         </div>
                     </div>
 
+
+                    
+
                     <div className="slider-box border shadow-lg">
                         <div className="slider-box-img">
                             <img src={img2} alt="" />

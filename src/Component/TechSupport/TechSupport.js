@@ -6,6 +6,7 @@ const TechSupport = () => {
 
     return (
         <div className="tech-supp-container">
+            
             <div className="w-[65%]">
                 <h1 className="font-[700] font-[inter] text-[54px] text-white mt-[99px]">Best Technical Support 24/7
                 </h1>
